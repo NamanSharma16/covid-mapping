@@ -36,6 +36,7 @@ fetch("https://api.covid19api.com/summary", requestOptions)
       //variable infoArray gets processed by visualization method and assigned into data
       var data = google.visualization.arrayToDataTable([
         ["Country", "Total Confirmed"],
+        ["US", 3000000],
         ...infoArray,
       ]);
 
